@@ -1,0 +1,434 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Zee5</title>
+    <link rel="shortcut icon" href="../Bootstrap/ZEE5_logo.svg" type="image/x-icon">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+<style>
+    #h
+    {
+          color: white;
+          font-family: Verdana, Geneva, Tahoma, sans-serif;
+    }
+    #h2
+    {
+      color: white;
+      font-family: Verdana, Geneva, Tahoma, sans-serif;
+    }
+    #h3
+    {
+      color: white;
+      font-family: Verdana, Geneva, Tahoma, sans-serif;
+    }
+    .card-img-top
+    {
+      height: 6cm;
+    }
+    .card
+    {
+      
+      transition: 1s;
+    }
+    .card:hover
+    {
+       transform: scale(1.1);
+       z-index: 2;    
+    }
+    body
+    {
+        background-color: rgb(13,5,20); 
+    }
+    .d-block
+    {
+        height: 13cm;
+    }
+    .card
+    {
+      background-color: rgb(13,5,20);
+        border: 1px solid rgb(13,5,20); 
+        padding: 10px;
+        color: white;
+    }
+    #cards
+    {   
+        display: flex;        
+    }
+    #div2
+    {
+      display: flex;
+    }
+    #div3
+    {
+      color: white;
+    }
+    #div4
+    {
+      display: flex;
+    }
+    #div5
+    {
+      color: white;
+    }
+    #div6
+    {
+      color: white;
+    }
+    .dropdown-menu
+    {
+      background-color: rgb(13,5,20);
+    }
+    .btn1
+    {
+      color: white;
+      background-color: rgb(13,5,20);
+    }
+    #More1
+    {
+      margin-left: 92%;
+    }
+    #More2
+    {
+      margin-left: 92%;
+    }
+    #More3
+    {
+      margin-left: 92%;
+    }
+</style>
+</head>
+<body>
+   
+     <nav class="navbar fixed-top navbar-expand-lg navbar-dark" style="background-color: rgb(13,5,20);">
+        <div class="container-fluid">
+          <a class="navbar-brand" href="#"><img src="../Bootstrap/ZEE5_logo.svg" alt="" width="30" height="24" class="d-inline-block align-text-top">
+          </a>
+      
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="#">Home</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#h2">Tvshows</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#h3">Movies</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="https://www.zee5.com/collections/zee5-original-web-series/0-8-6634" target="_self">Webseries</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#h">HollywoodMovies</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="https://www.zee5.com/myaccount/subscription" target="_self">Premium</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#https://www.zee5.com/tv-shows/details/zee-comedy-show/0-6-3420" target="_self">ComedyShows</a>
+              </li>
+              <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                  Register/Login
+                </a>
+                <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                  <li><button class="btn1" type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#exampleModal">
+                    Register/SignUp</button>
+                </li>
+                  <li><button class="btn1" type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#exampleModal">
+                    Login</button></li>
+                  
+                </ul>
+              </li>
+              
+            </ul>
+            </ul>
+            <form class="d-flex">
+              <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+              <button class="btn btn-outline-success" type="submit">Search</button>
+            </form>
+          </div>
+        </div>
+      </nav>
+         <!-- Images -->
+    
+         <div id="carouselExampleSlidesOnly" class="carousel slide" data-bs-ride="carousel">
+            <div class="carousel-inner">
+                <div class="carousel-item active" data-bs-interval="5000">
+                    <img src="../Bootstrap/Images/schindlers-list-wallpapers.jpg" class="d-block w-100" alt="...">
+                  </div>
+              <div class="carousel-item" data-bs-interval="4000">
+                <img src="../Bootstrap/Images/Avengers-End.jpeg" class="d-block w-100" alt="...">
+              </div>
+              <div class="carousel-item" data-bs-interval="4000">
+                <img src="../Bootstrap/Images/pianist.jpg" class="d-block w-100" alt="...">
+              </div>
+              <div class="carousel-item" data-bs-interval="4000">
+                <img src="../Bootstrap/Images/300.jpg" class="d-block w-100" alt="...">
+              </div>
+              <div class="carousel-item" data-bs-interval="4000">
+                <img src="../Bootstrap/Images/hellboy.jpg" class="d-block w-100" alt="...">
+              </div>
+              <div class="carousel-item" data-bs-interval="4000">
+                <img src="../Bootstrap/Images/Obli.jpg" class="d-block w-100" alt="...">
+              </div>
+              <div class="carousel-item" data-bs-interval="4000">
+                <img src="../Bootstrap/Images/wp6549341-tamil-movies-wallpapers.jpg" class="d-block w-100" alt="...">
+              </div>
+              <div class="carousel-item" data-bs-interval="4000">
+                <img src="../Bootstrap/Images/uwp3008684.jpeg" class="d-block w-100" alt="...">
+              </div>
+              <div class="carousel-item" data-bs-interval="4000">
+                <img src="../Bootstrap/Images/Poster.png" class="d-block w-100" alt="...">
+              </div>
+              <div class="carousel-item" data-bs-interval="4000">
+                <img src="../Bootstrap/Images/titanic-love-wallpapers.jpg" class="d-block w-100" alt="...">
+              </div>
+            </div>
+          </div>               
+          
+<!-- Cards -->
+<h2 id="h">Hollywood Movies</h2>
+<a id="More1" href="https://www.zee5.com/movies/hollywood" target="_blank">More->></a>
+<div id="cards">
+  <div class="card" style="width: 12rem;">
+    <img src="../Bootstrap/Images/pianist new.jpg" class="card-img-top" alt="...">
+      <a href="https://youtu.be/K8DVwuXIx2E" target="_blank" class="btn btn-primary">▶Trailer</a>
+  </div>
+  <div class="card" style="width: 12rem;">
+    <img src="../Bootstrap/Images/schindlers-list-wallpapers (1).jpg" class="card-img-top" alt="...">
+      <a href="https://youtu.be/gG22XNhtnoY" target="_blank" class="btn btn-primary">▶Trailer</a>
+  </div>
+  <div class="card" style="width: 12rem;">
+    <img src="../Bootstrap/Images/the-revenant-wallpapers (1).jpg" class="card-img-top" alt="...">
+      <a href="https://youtu.be/LoebZZ8K5N0" target="_blank" class="btn btn-primary">▶Trailer</a>
+  </div>
+  <div class="card" style="width: 12rem;">
+    <img src="../Bootstrap/Images/titanic-love-wallpapers (1).jpg" class="card-img-top" alt="...">
+      <a href="https://youtu.be/CHekzSiZjrY" target="_blank" class="btn btn-primary">▶Trailer</a>
+  </div>
+  <div class="card" style="width: 12rem;">
+    <img src="../Bootstrap/Images/django-unchained-wallpapers (1).jpg" class="card-img-top" alt="...">
+      <a href="https://youtu.be/0fUCuvNlOCg" target="_blank" class="btn btn-primary">▶Trailer</a>
+  </div>
+  <div class="card" style="width: 12rem;">
+    <img src="../Bootstrap/Images/Infinitynew1 (1).jpg" class="card-img-top" alt="...">
+      <a href="https://youtu.be/6ZfuNTqbHE8" target="_blank" class="btn btn-primary">▶Trailer</a>
+  </div>
+  </div>
+  
+</div>
+<!-- Adimage -->
+<div id="div5">
+  Ads🛑
+ <img src="../Bootstrap/Images/neeram.jpg" alt="" width="100%" height="200px">
+</div>
+<!-- Cards2 -->
+<h2 id="h2">Tv Shows</h2>
+<a id="More1" href="https://www.zee5.com/tv-shows" target="_blank">More->></a>
+<div id="div2">
+    <div class="card" style="width: 12rem;">
+      <img src="../Bootstrap/Images/sur.webp" class="card-img-top" alt="...">
+        <a href="https://youtu.be/DUWLqDVjwXU" target="_blank" class="btn btn-primary">▶Promo</a>
+    </div>
+    <div class="card" style="width: 12rem;">
+      <img src="../Bootstrap/Images/thamizha.jpg" class="card-img-top" alt="...">
+      <a href="https://youtu.be/6-f6lYaKwNE" target="_blank" class="btn btn-primary">▶Promo</a>
+    </div>
+    <div class="card" style="width: 12rem;">
+      <img src="../Bootstrap/Images/iruvar.webp" class="card-img-top" alt="...">
+        <a href="https://www.zee5.com/tv-shows" target="_blank" class="btn btn-primary">▶Promo</a>
+    </div> 
+    <div class="card" style="width: 12rem;">
+      <img src="../Bootstrap/Images/sembarathi.webp" class="card-img-top" alt="...">
+        <a href="https://youtu.be/sQhkLscXj4o" target="_blank" class="btn btn-primary">▶Promo</a>
+    </div>
+    <div class="card" style="width: 12rem;">
+      <img src="../Bootstrap/Images/serial.webp" class="card-img-top" alt="...">
+        <a href="https://youtu.be/lMDnOGX7weg" target="_blank" class="btn btn-primary">▶Promo</a>
+    </div>
+    <div class="card" style="width: 12rem;">
+      <img src="../Bootstrap/Images/karthigai.webp" class="card-img-top" alt="...">
+        <a href="https://youtu.be/BTft2ap7TF4" target="_blank" class="btn btn-primary">▶Promo</a>
+    </div>    
+</div>
+<!-- Adimage -->
+<div id="div3">
+   Ads🛑
+  <img src="../Bootstrap/Images/wolv.jpg" alt="" width="100%" height="200px">
+</div>
+<!-- Cards3 -->
+<h2 id="h3">Tamil Movies</h2>
+<a id="More1" href="https://www.zee5.com/movies/lang/tamil" target="_blank">More->></a>
+<div id="div4">
+    <div class="card" style="width: 12rem;">
+      <img src="../Bootstrap/Images/kaala (1).jpg" class="card-img-top" alt="...">
+        <a href="https://youtu.be/mMCEvr3VWqQ" target="_blank" class="btn btn-primary">▶Trailer</a>
+    </div>
+    <div class="card" style="width: 12rem;">
+      <img src="../Bootstrap/Images/Vikram (1).jpg" class="card-img-top" alt="...">
+      <a href="https://youtu.be/OKBMCL-frPU" target="_blank" class="btn btn-primary">▶Trailer</a>
+    </div>
+    <div class="card" style="width: 12rem;">
+      <img src="../Bootstrap/Images/suriya (1).jpg" class="card-img-top" alt="...">
+        <a href="https://youtu.be/fa_DIwRsa9o" target="_blank" class="btn btn-primary">▶Trailer</a>
+    </div> 
+    <div class="card" style="width: 12rem;">
+      <img src="../Bootstrap/Images/Master (1).jpg" class="card-img-top" alt="...">
+        <a href="https://youtu.be/1_iUFT3nWHk" target="_blank" class="btn btn-primary">▶Trailer</a>
+    </div>
+    <div class="card" style="width: 12rem;">
+      <img src="../Bootstrap/Images/ajith (1).jpg" class="card-img-top" alt="...">
+        <a href="https://youtu.be/B7c87SWQg-Y" target="_blank" class="btn btn-primary">▶Trailer</a>
+    </div>
+    <div class="card" style="width: 12rem;">
+      <img src="../Bootstrap/Images/Jeeva1.jpg" class="card-img-top" alt="...">
+        <a href="https://youtu.be/vPfVWb2Cl4Q" target="_blank" class="btn btn-primary">▶Trailer</a>
+    </div>    
+</div>
+<!-- Adimage -->
+<div id="div6">
+  Ads🛑
+ <img src="../Bootstrap/Images/visavaroopam.jpg" alt="" width="100%" height="200px">
+</div>
+
+<!-- Footer -->
+<footer class="text-white pt-5 pb-4" style="background-color: rgb(13,5,20);">
+
+	<div class="container text-center text-md-left">
+
+		<div class="row text-center text-md-left">
+
+			<div class="col-md-3 col-lg-3 col-xl-3 mx-auto mt-3">
+				<h5 class="text-uppercase mb-4 font-weight-bold text-primary">Zee5Company</h5> 
+        <p>A World-Class Streaming Experience Awaits You!Binge On The Most Talked About And Trending Titles,Only On Zee5,The World's Largest Streaming Destination</p>
+				
+			</div>
+
+			<div class="col-md-2 col-lg-2 col-xl-2 mx-auto mt-3">
+				<h5 class="text-uppercase mb-4 font-weight-bold text-primary">Products</h5>
+			<p>
+				<a href="#" class="text-white" style="text-decoration: none;">Popular TvShows</a>
+			</p>
+			<p>
+				<a href="#" class="text-white" style="text-decoration: none;">Hollywood Movies</a>
+			</p>
+			<p>
+				<a href="#" class="text-white" style="text-decoration: none;">Tamil Movies</a>
+			</p>
+			<p>
+				<a href="#" class="text-white" style="text-decoration: none;">WebSeries</a>
+			</p>
+
+			</div>
+
+			<div class="col-md-3 col-lg-2 col-xl-2 mx-auto mt-3">
+				<h5 class="text-uppercase mb-4 font-weight-bold text-primary">Useful links</h5>
+			<p>
+				<a href="#" class="text-white" style="text-decoration: none;"> Your Account</a>
+			</p>
+			<p>
+				<a href="#" class="text-white" style="text-decoration: none;"> Become an Affiliates</a>
+			</p>
+			<p>
+				<a href="#" class="text-white" style="text-decoration: none;">Shipping Rates</a>
+			</p>
+			<p>
+				<a href="#" class="text-white" style="text-decoration: none;"> Help</a>
+			</p>
+			</div>
+
+			<div class="col-md-4 col-lg-3 col-xl-3 mx-auto mt-3">
+				<h5 class="text-uppercase mb-4 font-weight-bold text-primary" >Contact</h5>
+				<p>
+					<i class="fas fa-home mr-3"></i>Zee5Company
+				</p>
+				<p>
+					<i class="fas fa-envelope mr-3"></i>Zee98@gmail.com
+				</p>
+				<p>
+					<i class="fas fa-phone mr-3"></i>+91 9566804231
+				</p>
+				<p>
+					<i class="fas fa-print	 mr-3"></i>0452 2323223
+				</p>
+			</div>
+			
+		</div>
+
+		<hr class="mb-4">
+
+		<div class="row align-items-center">
+
+			<div class="col-md-7 col-lg-11">
+				<p>	Copyright ©2022 All rights reserved by:
+					<a href="#" style="text-decoration: none;">
+						<strong class="text-primary">Zee5</strong>
+					</a></p>
+				<p>Thanks For Visiting Us!</p>
+			</div>
+
+			<div class="col-md-5 col-lg-4">
+				<div class="text-center text-md-right">
+
+					<ul class="list-unstyled list-inline">
+						<li class="list-inline-item">
+							<a href="#" class="btn-floating btn-sm text-white" style="font-size: 23px;"><i class="fab fa-facebook"></i></a>
+						</li>
+						<li class="list-inline-item">
+							<a href="#" class="btn-floating btn-sm text-white" style="font-size: 23px;"><i class="fab fa-twitter"></i></a>
+						</li>
+						<li class="list-inline-item">
+							<a href="#" class="btn-floating btn-sm text-white" style="font-size: 23px;"><i class="fab fa-google-plus"></i></a>
+						</li>
+						<li class="list-inline-item">
+							<a href="#" class="btn-floating btn-sm text-white" style="font-size: 23px;"><i class="fab fa-linkedin-in"></i></a>
+						</li>
+						<li class="list-inline-item">
+							<a href="#" class="btn-floating btn-sm text-white" style="font-size: 23px;"><i class="fab fa-youtube"></i></a>
+						</li>
+					</ul>
+					
+				</div>
+				
+			</div>
+			
+		</div>
+
+	</div>
+	
+</footer>
+          <!-- Login   -->
+            <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                <div class="modal-dialog">
+                  <div class="modal-content">
+                    <div class="modal-header">
+                      <h5 class="modal-title" id="exampleModalLabel"></h5>
+                      <form>
+                        <div class="mb-3">
+                          <label for="exampleInputEmail1" class="form-label">UserName/Email</label>
+                          <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
+                          <div id="emailHelp" class="form-text">We'll never share your email with anyone else.</div>
+                        </div>
+                        <div class="mb-3">
+                          <label for="exampleInputPassword1" class="form-label">Password</label>
+                          <input type="password" class="form-control" id="exampleInputPassword1">
+                        </div>
+                        <div class="mb-3 form-check">
+                          <input type="checkbox" class="form-check-input" id="exampleCheck1">
+                          <label class="form-check-label" for="exampleCheck1">Check me out</label>
+                        </div>
+                        <button type="submit" class="btn btn-primary">Submit</button>
+                      </form>
+                      <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                    </div>
+
+                 
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+</body>
+</html>
